@@ -2,22 +2,29 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    color: white;
-    background-color: #f55c47;
+.center ,h1, h3, p, ul li {
+    text-align: center;
 }
 
-li a {
+.center {
+    list-style-type: none;
+}
+
+.center li {
+    display: inline;
+    padding: 16px;
+    position: relative;
+}
+
+ul li {
+    list-style-position: inside;
+}
+
+a {
     text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 8px 4px;
 }
 
-li a:hover {
-    color: #000;;
-    background-color: #f55c47;
+a:hover {
+    color: red;
+    background-color: silver;
 }
